@@ -1,0 +1,35 @@
+h1 {
+    color: red;
+}
+
+p {
+    
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 10px;
+}
+.box:hover {
+    background-color: green;
+    transition: 500ms;
+}
+
+@media (min-width: 600px) {
+    .box {
+        border: purple 3px solid;
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+    position:fixed;
+    justify-content: center;
+    align-items: center;
+}
+

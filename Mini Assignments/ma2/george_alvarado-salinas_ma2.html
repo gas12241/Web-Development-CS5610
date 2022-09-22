@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>GAS MA2</title>
+    <style>
+      /* This is the header for the site.  My initials followd by header*/
+      #gasHeader {
+        display: flex;
+        position: sticky;
+        background-color: pink;
+        justify-content: center;
+        font-size: 5vw;
+        color: aqua;
+        margin: 0;
+        padding: 0;
+        top: 0px;
+      }
+
+      /* Boxes with different colors to them.*/
+      .violetred-box {
+        width: 200px;
+        height: 200px;
+        background-color: palevioletred;
+      }
+
+      .aqua-box {
+        width: 200px;
+        height: 200px;
+        background-color: aqua;
+      }
+
+      .mediumspringgreen-box {
+        width: 200px;
+        height: 200px;
+        background-color: mediumspringgreen;
+      }
+      .slateblue-box {
+        width: 200px;
+        height: 200px;
+        background-color: slateblue;
+      }
+      .darkcyan-box {
+        width: 200px;
+        height: 200px;
+        background-color: darkcyan;
+      }
+      .violet-box {
+        width: 200px;
+        height: 200px;
+        background-color: violet;
+      }
+
+      .different-box {
+        width: 200px;
+        height: 200px;
+        background-color: purple;
+        margin-right: auto;
+      }
+      /* Completely white box that I originally used to space out the
+      last line of boxes*/
+      .emptybox {
+        width: 200px;
+        height: 200px;
+        background-color: white;
+      }
+      /* Container for the table with Contact info*/
+      .table-container {
+        display: flex;
+        flex-direction: row;
+        height: 250;
+        width: 100vw;
+        margin: 20px;
+        justify-content: center;
+      }
+      /* Row container for the boxes on screen.*/
+      .row {
+        display: flex;
+        flex-direction: row;
+        height: 250;
+        width: 100vw;
+        margin: 20px;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+      }
+      /* Row container used for the last row considering it only
+      has one box*/
+      .left-row {
+        display: flex;
+        flex-direction: row;
+        height: 250;
+        width: 100vw;
+        margin: 20px;
+        justify-content: center;
+      }
+      /*Used to space the contact info div in the middle of the page*/
+      #contactInfo {
+        display: flex;
+        justify-content: center;
+      }
+      /*Draws a line through the page separating the boxes
+        and the contact information*/
+      hr {
+        width: 75vw;
+      }
+      /*Table specifications*/
+      table {
+        display: flex;
+        font-family: "Times New Roman", Times, serif;
+        border-collapse: collapse;
+        width: 25%;
+      }
+      /*Table lines and how they are separated within the table itself.*/
+      td,
+      th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      /* Changes the color of every other table row to
+         easily distinguish between file rows.*/
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="gasHeader">George Alvarado-Salinas</div>
+    <div class="row">
+      <div class="violetred-box"></div>
+      <div class="aqua-box"></div>
+      <div class="mediumspringgreen-box"></div>
+    </div>
+    <div class="row">
+      <div class="slateblue-box"></div>
+      <div class="darkcyan-box"></div>
+      <div class="violet-box"></div>
+    </div>
+    <div class="row">
+      <div class="violetred-box"></div>
+      <div class="aqua-box"></div>
+      <div class="mediumspringgreen-box"></div>
+    </div>
+    <div class="row">
+      <div class="slateblue-box"></div>
+      <div class="darkcyan-box"></div>
+      <div class="violet-box"></div>
+    </div>
+    <div class="row">
+      <div class="violetred-box"></div>
+      <div class="aqua-box"></div>
+      <div class="mediumspringgreen-box"></div>
+    </div>
+    <div class="row">
+      <div class="slateblue-box"></div>
+      <div class="darkcyan-box"></div>
+      <div class="violet-box"></div>
+    </div>
+    <div class="row">
+      <div class="violetred-box"></div>
+      <div class="aqua-box"></div>
+      <div class="mediumspringgreen-box"></div>
+    </div>
+    <div class="row">
+      <div class="slateblue-box"></div>
+      <div class="darkcyan-box"></div>
+      <div class="violet-box"></div>
+    </div>
+    <div class="row">
+      <div class="violetred-box"></div>
+      <div class="aqua-box"></div>
+      <div class="mediumspringgreen-box"></div>
+    </div>
+    <div class="row">
+      <div class="slateblue-box"></div>
+      <div class="darkcyan-box"></div>
+      <div class="violet-box"></div>
+    </div>
+    <div class="row">
+      <div class="violetred-box"></div>
+      <div class="aqua-box"></div>
+      <div class="mediumspringgreen-box"></div>
+    </div>
+    <div class="row">
+      <div class="slateblue-box"></div>
+      <div class="darkcyan-box"></div>
+      <div class="violet-box"></div>
+    </div>
+    <div class="row">
+      <div class="violetred-box"></div>
+      <div class="aqua-box"></div>
+      <div class="mediumspringgreen-box"></div>
+    </div>
+    <div class="row">
+      <div class="slateblue-box"></div>
+      <div class="darkcyan-box"></div>
+      <div class="violet-box"></div>
+    </div>
+    <div class="row">
+      <div class="violetred-box"></div>
+      <div class="aqua-box"></div>
+      <div class="mediumspringgreen-box"></div>
+    </div>
+    <div class="row">
+      <div class="slateblue-box"></div>
+      <div class="darkcyan-box"></div>
+      <div class="violet-box"></div>
+    </div>
+    <div class="row">
+      <div class="violetred-box"></div>
+      <div class="aqua-box"></div>
+      <div class="mediumspringgreen-box"></div>
+    </div>
+    <div class="row">
+      <div class="slateblue-box"></div>
+      <div class="darkcyan-box"></div>
+      <div class="violet-box"></div>
+    </div>
+    <div class="row">
+      <div class="violetred-box"></div>
+      <div class="aqua-box"></div>
+      <div class="mediumspringgreen-box"></div>
+    </div>
+    <div class="row">
+      <div class="slateblue-box"></div>
+      <div class="darkcyan-box"></div>
+      <div class="violet-box"></div>
+    </div>
+    <div class="row">
+      <div class="violetred-box"></div>
+      <div class="aqua-box"></div>
+      <div class="mediumspringgreen-box"></div>
+    </div>
+    <div class="row">
+      <div class="slateblue-box"></div>
+      <div class="darkcyan-box"></div>
+      <div class="violet-box"></div>
+    </div>
+    <div class="row">
+      <div class="violetred-box"></div>
+      <div class="aqua-box"></div>
+      <div class="mediumspringgreen-box"></div>
+    </div>
+    <div class="row">
+      <div class="slateblue-box"></div>
+      <div class="darkcyan-box"></div>
+      <div class="violet-box"></div>
+    </div>
+    <div class="row">
+      <div class="violetred-box"></div>
+      <div class="aqua-box"></div>
+      <div class="mediumspringgreen-box"></div>
+    </div>
+    <div class="row">
+      <div class="slateblue-box"></div>
+      <div class="darkcyan-box"></div>
+      <div class="violet-box"></div>
+    </div>
+    <div class="row">
+      <div class="violetred-box"></div>
+      <div class="aqua-box"></div>
+      <div class="mediumspringgreen-box"></div>
+    </div>
+    <div class="row">
+      <div class="slateblue-box"></div>
+      <div class="darkcyan-box"></div>
+      <div class="violet-box"></div>
+    </div>
+    <div class="row">
+      <div class="violetred-box"></div>
+      <div class="aqua-box"></div>
+      <div class="mediumspringgreen-box"></div>
+    </div>
+    <div class="row">
+      <div class="slateblue-box"></div>
+      <div class="darkcyan-box"></div>
+      <div class="violet-box"></div>
+    </div>
+    <div class="row">
+      <div class="violetred-box"></div>
+      <div class="aqua-box"></div>
+      <div class="mediumspringgreen-box"></div>
+    </div>
+    <div class="row">
+      <div class="slateblue-box"></div>
+      <div class="darkcyan-box"></div>
+      <div class="violet-box"></div>
+    </div>
+    <div class="row">
+      <div class="violetred-box"></div>
+      <div class="aqua-box"></div>
+      <div class="mediumspringgreen-box"></div>
+    </div>
+    <div class="left-row">
+      <div class="different-box"></div>
+    </div>
+    <!--- This is with empty boxes in the row.
+    <div class="row">
+      <div class="slateblue-box"></div>
+      <div class="emptybox"></div>
+      <div class="emptybox"></div>
+    </div>
+    --->
+    <hr />
+    <div id="contactInfo"><strong>Contact Info</strong></div>
+    <table class="table-container">
+      <tr>
+        <th>Email</th>
+        <th>georgepitcher11@gmail.com</th>
+      </tr>
+      <tr>
+        <th>LinkedIn</th>
+        <th>https://www.linkedin.com/in/georgealvarado-salinas206</th>
+      </tr>
+      <tr>
+        <th>Github</th>
+        <th>gas12241</th>
+      </tr>
+    </table>
+  </body>
+</html>
