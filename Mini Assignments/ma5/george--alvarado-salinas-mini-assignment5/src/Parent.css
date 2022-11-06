@@ -1,0 +1,25 @@
+.Counter {
+  padding: 60px;
+  color: rgb(5, 149, 101);
+  margin-right: 100px;
+  font-weight: bolder;
+}
+.Box {
+  height: 0px;
+  width: 305px;
+  flex-direction: row;
+}
+.page-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.black-background {
+  background-color: black;
+}
+.white-background {
+  background-color: white;
+}
